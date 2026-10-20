@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.idle": {
+      "geometry": "geometry.humanoid",
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "textures": [
+        "texture.default"
+      ]
+    },
+    "controller.render.walk": {
+      "geometry": "geometry.humanoid",
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "textures": [
+        "texture.default"
+      ]
+    }
+  }
+}

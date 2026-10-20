@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "entity.bedrock_animation",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:geometry": {
+        "default": "geometry.humanoid"
+      },
+      "minecraft:material": {
+        "default": "material.default"
+      },
+      "minecraft:texture": {
+        "default": "texture.default"
+      },
+      "minecraft:animation": {
+        "idle": "animation.idle",
+        "walk": "animation.walk"
+      },
+      "minecraft:animation_controller": {
+        "idle": "controller.animation.idle",
+        "walk": "controller.animation.walk"
+      },
+      "minecraft:render_controller": {
+        "idle": "controller.render.idle",
+        "walk": "controller.render.walk"
+      }
+    }
+  }
+}
